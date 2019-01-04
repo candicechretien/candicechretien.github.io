@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding:0;
+}
+h2{
+    color:#9b59b6;
+}
+.entete{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.mes-coordonnées{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mes-coordonnées p{
+    font-size:1.5em;
+    text-align:center;
+    line-height:2em;
+    color:#9b59b6;
+    font-weight:bold;
+}
+
+.mon-image img{
+    width: 200px;
+    height:200px;
+    border-radius:100%;
+    margin: 15px;
+}
+.Qui-suis-je{
+    width: 80%;
+    margin: auto;
+
+}
+.expériences{
+    margin-top: 10%;
+}
+.expériences h2{
+    margin-left:25px;
+    padding-left:25px;
+    
+}
+.expériences section{
+    margin-left:25px;
+    padding-left:25px;
+    margin-top:20px; 
+}
+.expériences span{
+    font-weight: bold;
+}
+.Compétences p{
+    margin-left:25px;
+    padding-left:25px;
+    
+}
+.Compétences h2{
+    margin-left:25px;
+    padding-left:25px;
+
+}
+.Formation section{
+    margin-left:25px;
+    padding-left:25px;
+    margin-top:15px; 
+
+}
+.Formation h2{
+    margin-left:25px;
+    padding-left:25px;
+}
+footer{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2em;
+    background-color:#bdc3c7;
+    width:100%;
+}
+footer img{
+    width: 50px;
+    height:50px;
+    border-radius: 100%;
+
+
+}
+
+
+
+
